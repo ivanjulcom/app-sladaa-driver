@@ -9,9 +9,9 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class APIClient {
     static Retrofit retrofit = null;
 
-    public static String baseUrl = "http://sladaa.ivanjul.com/";
+    public static String baseUrl = "http://192.168.43.120/sladaa/";
 
-    public static final String APPEND_URL = "/rapi/";
+    public static final String APPEND_URL = "/sladaa/rapi/";
 
 
     public static UserService getInterface() {
