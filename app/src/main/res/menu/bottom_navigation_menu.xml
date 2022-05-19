@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_pendding"
+        android:icon="@drawable/ic_pending"
+        android:title="Menunggu" />
+<!--    <item-->
+<!--        -->
+<!--        android:id="@+id/navigation_genie"-->
+<!--        android:icon="@drawable/ic_pending"-->
+<!--        android:title="Genie" />-->
+
+    <item
+        android:id="@+id/navigation_delivery"
+        android:icon="@drawable/ic_complete"
+        android:title="Selesai" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_notification"
+        android:title="Notifikasi" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_account"
+        android:title="Akun" />
+</menu>
